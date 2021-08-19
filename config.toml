@@ -1,5 +1,5 @@
 baseurl = "https://kemalakin.dev" # Hostname (and path) to the root.
-title = "kemal akın" # Site title.
+title = "kemal akın | software developer" # Site title.
 theme = "coder-portfolio" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
 defaultcontentlanguage = "en" # The default content language.
@@ -67,7 +67,7 @@ disable_comments = true
 [languages]
     [languages.tr]
         languagename = "Turkish" # The language name to be displayed in the selector.
-        title = "kemal akın"
+        title = "kemal akın | software developer"
 
         # You can configure the theme parameter for each language.
         [languages.tr.params]
@@ -76,16 +76,16 @@ disable_comments = true
             description = "kemal's personal website"
             keywords = "blog,developer,personal"
 
-#        [languages.tr.menu] # It is possible to change the menu too.
+        [languages.tr.menu] # It is possible to change the menu too.
 #            [[languages.tr.menu.main]]
 #                name = "Hakkımda"
 #                weight = 1.0
 #                url = "about"
 #
-#            [[languages.tr.menu.main]]
-#                name = "Blog"
-#                weight = 2.0
-#                url = "posts"
+            [[languages.tr.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "https://blog.kemalakin.dev"
 #
 #            [[languages.tr.menu.main]]
 #                name = "İletişim"
@@ -94,12 +94,12 @@ disable_comments = true
 
     [languages.en]
         languagename = "English" # The language name to be displayed in the selector.
-        title = "kemal akın"
+        title = "kemal akın | software developer"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "kemal akın"
-            info = "developer"
+            info = "software developer"
             description = "kemal's personal website"
             keywords = "blog,developer,personal"
 
@@ -113,7 +113,7 @@ disable_comments = true
             [[languages.en.menu.main]]
                 name = "Blog"
                 weight = 2.0
-                url = "posts"
+                url = "https://blog.kemalakin.dev"
 
             [[languages.en.menu.main]]
                 name = "Contact"
